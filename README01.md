@@ -36,9 +36,11 @@ npm start
   - 는 꼭 설치하자
 
 
-   -![image](https://github.com/sinchangun/react/assets/145514301/3f40ef35-e2da-4de0-8dc5-3dbd620907f3)
+  - ![image](https://github.com/sinchangun/react/assets/145514301/3f40ef35-e2da-4de0-8dc5-3dbd620907f3)
 
   - ![image](https://github.com/sinchangun/react/assets/145514301/c0fbd6b0-3621-435c-8a16-a3f38fdd2079)
+    
   - ![image](https://github.com/sinchangun/react/assets/145514301/233669b0-db92-4e38-bed8-fb283c1b3b14)
+  - 위에 prettier를 설정하자
 
 
