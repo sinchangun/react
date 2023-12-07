@@ -29,3 +29,36 @@ function App() {
 
 export default App;
 ```
+
+```
+import logo from "./logo.svg";
+import "./App.css";
+
+function App() {
+  const name = "강아지";
+  const list = ["기침", "감기", "약"];
+  return (
+    <>
+      <h1 className="dog">{name} 안녕</h1>
+      <h1 className="dog">{`${name} 안녕`}</h1>
+      <ul>
+        <li>기침</li>
+        <li>감기</li>
+        <li>약</li>
+      </ul>
+      <ul>
+        {/* {list.map((item)=>{
+            return <li>{item}</li>
+          })} */}
+        {list.map((item) => 
+          (<li>{item}</li>)
+        )}
+      </ul>
+      <img src="https://mblogthumb-phinf.pstatic.net/20150904_190/kukjeart_inc_1441359474976QsquH_PNG/2015-09-04_18%3B37%3B06.PNG?type=w420" alt="이미지"
+      style={{width:"300px",height:"350px"}}></img>
+    </>
+  );
+}
+
+export default App;
+```
