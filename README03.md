@@ -9,4 +9,5 @@ react는 자동완성이 안돠기때문에 설정에서 아래와같이 emmet~ 
 ```
  "emmet.includeLanguages": {"javascript":"javascriptreact"} 그림에는 exclude라고 적혀있지만 include가 맞음.
 ```
+![image](https://github.com/sinchangun/react/assets/145514301/4d87cf4a-3755-4479-bbae-c1d07ccd7e0c)
 
