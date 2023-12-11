@@ -12,3 +12,7 @@ react는 자동완성이 안돠기때문에 설정에서 아래와같이 emmet~ 
 ![image](https://github.com/sinchangun/react/assets/145514301/4d87cf4a-3755-4479-bbae-c1d07ccd7e0c)
 
 ![image](https://github.com/sinchangun/react/assets/145514301/4b1948be-00aa-48e0-bf1c-a651410f73a4)
+
+# 기본 다시 해보기
+
+ ![image](https://github.com/sinchangun/react/assets/145514301/9942eb32-deca-4bcb-8f0f-8d6917f69190)
