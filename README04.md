@@ -7,3 +7,5 @@ num을 변하게 하는 함수 ==> setNum 함수를 이용하여 num을 변경�
 useState(0)의 0의 num의 초기값
 ```
 ![image](https://github.com/sinchangun/react/assets/145514301/751c73c2-ae5c-498d-b0fc-09279eeca689)
+
+![image](https://github.com/sinchangun/react/assets/145514301/0f76cab4-464d-4cda-af67-54060e43bc71)
