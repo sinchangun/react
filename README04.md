@@ -40,3 +40,45 @@ const Profile = ({img,name,title,isNew}) => {
 
 export default Profile;
 ```
+
+![image](https://github.com/sinchangun/react/assets/145514301/62ca7865-9037-4f4e-bdf0-32b91d41a776)
+
+```
+import { useState } from "react";
+import "./App.css";
+
+
+function App() {
+  let counter = 0;
+  console.log(useState)
+
+  /* const num = useState(0)[0];
+  const setNum = useState(0)[1]; 
+  아래처럼 적어주면된다.
+  */
+
+  const [num,setNum] =useState(0);
+  //0은 매개변수 num의 state의 초기값이 0이다.
+  //[c초기값인 0 ,초기값을 변화시키는 함수]
+  //useState 라는 함수를 통해 react에게 값이 변했음을 알려주는방법
+  //usestate는 react가 제공하는 react hook
+  //state를 바꾸면 UI를 다시 랜더링한다.
+
+  const increase = function(){
+    counter = counter + 1;
+    console.log(counter)
+    console.log("num :" + num);
+    // counter는 0에서 변하지않고 num은 계속 늘어난다.
+  setNum(num + 1)
+  }
+  return (
+    <>
+      <div>{`num = ${num}`}</div>
+      <div>{`counter = ${counter}`}</div>
+      <button onClick={increase}>클릭</button>
+    </>
+  );
+}
+
+export default App;
+```
